@@ -3,8 +3,10 @@ import {Usuario, Role} from  './usuario.js';
 let title: string = 'a';
 let description: string = 'b';
 let locations:string  = 'c';
-let data = new Date();
+let data = new Date('2026-10-01');
 let capaticy: number = 1000;
+
+console.log(data);
 
 const user = new Usuario(1,'André','andre@dcomp.ufs.br',Role.Admin);
 

@@ -1,11 +1,13 @@
-import { Usuario, Role } from './usuario';
+import { Usuario, Role } from './usuario.js';
 let title = 'a';
 let description = 'b';
 let locations = 'c';
-let data = new Date();
+let data = new Date('2026-10-01');
 let capaticy = 1000;
+console.log(data);
 const user = new Usuario(1, 'André', 'andre@dcomp.ufs.br', Role.Admin);
 console.log('Título: ' + title);
+console.log(user.getName());
 let evento;
 evento = ['Hackathon do DCOMP', 45, true];
 let evento2;
@@ -42,4 +44,3 @@ function nomeFuncao(f) {
 }
 nomeFuncao(calcularVagasRestantes);
 let arr = [[]];
-//# sourceMappingURL=basico.js.map

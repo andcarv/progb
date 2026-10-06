@@ -41,4 +41,3 @@ export class Usuario {
         this.role = role;
     }
 }
-//# sourceMappingURL=usuario.js.map
